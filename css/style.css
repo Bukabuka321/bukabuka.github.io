@@ -1,1 +1,160 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html {
+     box-sizing: border-box;
+  }
+  *, *::before, *::after {
+     box-sizing: inherit;
+  }
+  body {
+     font-family: 'Roboto';
+     font-style: normal;
+  }
+  /* Header styles start */
+  header {
+     background-color: #007765;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+  }
+  .main_container {
+     max-width: 1219px;
+     height: 84px;
+     margin: 0 auto;
+     padding: 16px 55px 18px 55px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+  }
+  nav ul {
+     display: flex;
+     flex-wrap: wrap;
+  }
+  ul li{
+     color: #FFFFFF;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     list-style-type: none;
+     padding-right: 9px;
+  }
+  ul li:not(:last-of-type) {
+     border-right: 2px solid white;
+   }
+   .navigation_items {
+     margin: 0 9px 0 9px;
+     padding-right: 9px;
+   }
+  .header_link {
+     color: #FFFFFF;
+     text-decoration: none;
+  }
+  ul li:last-child {
+     margin-right: 0;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active {
+     opacity: .75;
+  }
+  .main_logo {
+     float: left;
+  }
+  /* Header styles end */
 
+  /* Main styles start*/
+.main_body {
+     width: 100%;
+     margin: 0 auto;
+}
+.intro {
+     margin-top: 84px;
+     background: url(../image_html/intro.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.intro_text {
+     max-width: 1219px;
+     margin: 0 auto;
+     padding: 160px 0 160px 0;
+     font-weight: 500;
+     font-size: 72px;
+     line-height: 84px;
+     text-align: center;
+     color: #FFFFFF;
+}
+.problem_main {
+     max-width: 1219px;
+     margin: 0 auto;
+     padding: 0 55px 0 55px;
+}
+.problem_header {
+     margin: 48px 0 16px 0;
+     font-weight: 500;
+     font-size: 64px;
+     line-height: 75px;
+     text-align: center;
+     color: #007765;
+}
+.problem_text {
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 38px;
+     color: #000000;
+     margin-bottom: 92px;
+}
+.hero_main {
+     background: url(../image_html/image.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 483px;
+}
+.hero_text {
+     max-width: 1219px;
+     margin: 0 auto;
+     padding: 128px 160px 128px 160px;
+     font-style: italic;
+     font-weight: 500;
+     font-size: 48px;
+     line-height: 56px;
+     text-align: center;
+     color: #FFFFFF;
+}
+  /* Main styles end*/
