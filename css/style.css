@@ -43,7 +43,6 @@
   body {
      font-family: 'Roboto';
      font-style: normal;
-     overflow: auto;
   }
   /* Header styles start */
   header {
@@ -62,6 +61,7 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-between;
+     overflow: auto;
   }
   nav ul {
      display: flex;
