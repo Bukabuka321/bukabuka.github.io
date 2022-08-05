@@ -61,7 +61,6 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-between;
-     overflow: auto;
   }
   nav ul {
      display: flex;
@@ -95,6 +94,9 @@
   }
   .main_logo {
      float: left;
+  }
+  .main_logo a {
+   display: block;
   }
   /* Header styles end */
 
@@ -158,4 +160,112 @@
      text-align: center;
      color: #FFFFFF;
 }
-  /* Main styles end*/
+.introducing_main {
+      max-width: 1219px;
+      margin: 0 auto;
+      padding: 0 55px 0 55px;
+}
+.introducing_header {
+      margin-top: 48px;
+      margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 75px;
+      text-align: center;
+      color: #007765;
+}
+.introducing_logo {
+      float: left;
+      margin: 16px 48px 0 0;
+}
+.logo_ppc {
+      width: 115px;
+      height: 115px;
+}
+.introducing_text {
+      margin-bottom: 92px;
+}
+.text_ppc_1 {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #000000;
+
+}
+.text_ppc_2 {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #000000;
+} 
+.team_main {
+      max-width: 1219px;
+      margin: 0 auto;
+      padding: 0 55px 0 55px;
+}
+.team_header {
+   margin-top: 48px;
+   margin-bottom: 32px;
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;
+   color: #007765;
+}
+.team_info {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   margin-bottom: 30px;
+}
+.team_info_2 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   margin-bottom: 94px;
+}
+.team_frame {
+   text-align: center;
+   height: 283px;
+}
+.team_foto {
+   height: 168px;
+   width: 168px;
+}
+.member_name {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   color: #007765;
+   margin: 0;
+}
+.member_postion {
+   font-style: italic;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   margin: 0;
+}
+/* Main styles end*/
+
+/* Footer styles start */
+.site_footer {
+   background-color: #333;
+   width: 100%;
+}
+.copyrights_main {
+   max-width: 1219px;
+   margin: 0 auto;
+}
+.copyrights_text {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #FFFFFF;
+   padding: 48px 340px 64px 340px;
+   margin: 0%;
+}
+/* Footer styles end */
