@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Pied Piper Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +13,7 @@
     <header class="site_header">
         <div class="main_container">
             <div class="main_logo">
-                <a href="#header_site">
+                <a href="#">
                     <img src="image_html/logo.svg" alt="logo">
                 </a>
             </div>
@@ -20,13 +21,13 @@
                 <nav class="navigation">
                     <ul class="navigation_list">
                         <li class="navigation_items">
-                            <a href="" class="header_link">the problem</a>
+                            <a href="#the_problem" class="header_link">the problem</a>
                         </li>
                         <li clas="navigation_items">
-                            <a href="" class="header_link">PiedPiperCoin</a>
+                            <a href="#PiedPiperCoin" class="header_link">PiedPiperCoin</a>
                         </li>
                         <li class="navigation_items">
-                            <a href="" class="header_link">the team</a>
+                            <a href="#the_team" class="header_link">the team</a>
                         </li>
                     </ul>
                 </nav>
@@ -38,7 +39,7 @@
             <h1 class="intro_text">PiperNet Is Here</h1>
         </div>
         <div class="problem_main">
-            <h1 class="problem_header">The Problem</h1>
+            <h1 class="problem_header" id="the_problem">The Problem</h1>
             <p class="problem_text">
                 Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.
                 <br>
@@ -58,6 +59,72 @@
                 We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.
             </p>
         </div>
+        <div class="introducing_main">
+            <h1 class="introducing_header" id="PiedPiperCoin">Introducing PiedPiperCoin</h1>
+            <div class="introducing_logo">
+                <img src="../Landing/image_html/PPC Logo.png" alt="logo_PPC" class="logo_ppc">
+            </div>
+            <div class="introducing_text">
+                <p class="text_ppc_1">
+                    Pied Piper's new internet is built for users, by users.
+                    You supply the storage, compute, and networking resources that power our entire decentralized web.
+                </p>
+                <p class="text_ppc_2">
+                    Now there's a way to give credit where credit is due. Compute credit, that is!
+                    The more you share your device resources, the more PiedPiperCoin you receive.
+                    <br>
+                    <br>
+                    Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.
+                </p>
+            </div>
+        </div>
+        <div class="team_main">
+            <h1 class="team_header" id="the_team">The Team</h1>
+            <div class="team_info">
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-2.png" alt="founder" class="team_foto">
+                    <h3 class="member_name">Richard Hendricks</h3>
+                    <p class="member_postion">Founder & CEO</p>
+                </div>
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-3.png" alt="senior" class="team_foto">
+                    <h3 class="member_name">Dinesh Chugtai</h3>
+                    <p class="member_postion">Senior Programmer</p>
+                </div>
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-4.png" alt="architecter" class="team_foto">
+                    <h3 class="member_name">Bertram Gilfoyle</h3>
+                    <p class="member_postion">Chief Systems Architect</p>
+                </div>
+            </div>
+            <div class="team_info_2">
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-5.png" alt="oper" class="team_foto">
+                    <h3 class="member_name">Jared Dunn</h3>
+                    <p class="member_postion">Chief Operating Officer</p>
+                </div>
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-6.png" alt="finance" class="team_foto">
+                    <h3 class="member_name">Monica Hall</h3>
+                    <p class="member_postion">Chief Financial Officer</p>
+                </div>
+                <div class="team_frame">
+                    <img src="../Landing/image_html/image-7.png" alt="investor" class="team_foto">
+                    <h3 class="member_name">Nelson Bighetti</h3>
+                    <p class="member_postion">Majority Investor</p>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer class="site_footer">
+        <div class="copyrights_main">
+            <p class="copyrights_text">
+                All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
